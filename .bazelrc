@@ -1,2 +1,2 @@
 build --registry=https://example.com/custom_registry
-build --registry=https://github.com/bazelbuild/bazel-central-registry
+build --registry=https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main
