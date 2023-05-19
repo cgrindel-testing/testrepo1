@@ -1,2 +1,6 @@
 # build --registry=https://example.com/custom_registry
 # build --registry=https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main
+
+
+# Enable bzlmod lock file
+common --lockfile_mode=update
