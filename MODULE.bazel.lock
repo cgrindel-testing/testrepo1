@@ -1,6 +1,6 @@
 {
   "lockFileVersion": 1,
-  "moduleFileHash": "45c53e5ec055357578f9d1a807736f004d6567dfd8c2e1f461d430803b8bf39d",
+  "moduleFileHash": "eafc9da6d3d6a55b261974d0ffa6111351cc1a022fc231d6cd80bf66aaff86b8",
   "flags": {
     "cmdRegistries": [
       "https://bcr.bazel.build/"
@@ -66,7 +66,7 @@
       "deps": {
         "bazel_tools": "bazel_tools@_",
         "local_config_platform": "local_config_platform@_",
-        "cgrindel_bazel_starlib": "cgrindel_bazel_starlib@0.15.0",
+        "cgrindel_bazel_starlib": "cgrindel_bazel_starlib@0.16.0",
         "rules_bazel_integration_test": "rules_bazel_integration_test@0.12.0"
       }
     },
@@ -204,10 +204,10 @@
         "platforms": "platforms@0.0.6"
       }
     },
-    "cgrindel_bazel_starlib@0.15.0": {
+    "cgrindel_bazel_starlib@0.16.0": {
       "name": "cgrindel_bazel_starlib",
-      "version": "0.15.0",
-      "key": "cgrindel_bazel_starlib@0.15.0",
+      "version": "0.16.0",
+      "key": "cgrindel_bazel_starlib@0.16.0",
       "repoName": "cgrindel_bazel_starlib",
       "executionPlatformsToRegister": [],
       "toolchainsToRegister": [],
@@ -215,9 +215,9 @@
         {
           "extensionBzlFile": "@io_bazel_rules_go//go:extensions.bzl",
           "extensionName": "go_sdk",
-          "usingModule": "cgrindel_bazel_starlib@0.15.0",
+          "usingModule": "cgrindel_bazel_starlib@0.16.0",
           "location": {
-            "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+            "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
             "line": 31,
             "column": 23
           },
@@ -230,9 +230,9 @@
         {
           "extensionBzlFile": "@bazel_gazelle//:extensions.bzl",
           "extensionName": "go_deps",
-          "usingModule": "cgrindel_bazel_starlib@0.15.0",
+          "usingModule": "cgrindel_bazel_starlib@0.16.0",
           "location": {
-            "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+            "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
             "line": 37,
             "column": 24
           },
@@ -256,7 +256,7 @@
               "attributeValues": {"path":"--github.com/alecthomas/assert","sum":"--h1:smF2tmSOzy2Mm+0dGI2AIUHY+w0BUc+4tn40djz7+6U=","version":"--v0.0.0-20170929043011-405dbfeb8e38"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 44,
                 "column": 15
               }
@@ -266,7 +266,7 @@
               "attributeValues": {"path":"--github.com/alecthomas/colour","sum":"--h1:nOE9rJm6dsZ66RGWYSFrXw461ZIt9A6+nHgL7FRrDUk=","version":"--v0.1.0"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 49,
                 "column": 15
               }
@@ -276,7 +276,7 @@
               "attributeValues": {"path":"--github.com/alecthomas/repr","sum":"--h1:8Uy0oSf5co/NZXje7U1z8Mpep++QJOldL2hs/sBQf48=","version":"--v0.0.0-20210801044451-80ca428c5142"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 54,
                 "column": 15
               }
@@ -286,7 +286,7 @@
               "attributeValues": {"path":"--github.com/alecthomas/template","sum":"--h1:cAKDfWh5VpdgMhJosfJnn5/FoN2SRZ4p7fJNX58YPaU=","version":"--v0.0.0-20160405071501-a0175ee3bccc"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 59,
                 "column": 15
               }
@@ -296,7 +296,7 @@
               "attributeValues": {"path":"--github.com/alecthomas/units","sum":"--h1:qet1QNfXsQxTZqLG4oE62mJzwPIB8+Tee4RNCL9ulrY=","version":"--v0.0.0-20151022065526-2efee857e7cf"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 64,
                 "column": 15
               }
@@ -306,7 +306,7 @@
               "attributeValues": {"path":"--github.com/davecgh/go-spew","sum":"--h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=","version":"--v1.1.1"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 69,
                 "column": 15
               }
@@ -316,7 +316,7 @@
               "attributeValues": {"path":"--github.com/ekalinin/github-markdown-toc.go","sum":"--h1:6jRFt5qg61XfXZbP3SDaeTX+1OC1EgbHvRceYDmPAUE=","version":"--v1.2.1"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 74,
                 "column": 15
               }
@@ -326,7 +326,7 @@
               "attributeValues": {"path":"--github.com/mattn/go-isatty","sum":"--h1:yVuAays6BHfxijgZPzw+3Zlu5yQgKGP2/hcQbHb7S9Y=","version":"--v0.0.14"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 79,
                 "column": 15
               }
@@ -336,7 +336,7 @@
               "attributeValues": {"path":"--github.com/sergi/go-diff","sum":"--h1:XU+rvMAioB0UC3q1MFrIQy4Vo5/4VsRDQQXHsEya6xQ=","version":"--v1.2.0"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 84,
                 "column": 15
               }
@@ -346,7 +346,7 @@
               "attributeValues": {"path":"--github.com/stretchr/testify","sum":"--h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=","version":"--v1.7.0"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 89,
                 "column": 15
               }
@@ -356,7 +356,7 @@
               "attributeValues": {"path":"--gopkg.in/alecthomas/kingpin.v2","sum":"--h1:CC8tJ/xljioKrK6ii3IeWVXU4Tw7VB+LbjZBJaBxN50=","version":"--v2.2.4"},
               "devDependency": false,
               "location": {
-                "file": "cgrindel_bazel_starlib@0.15.0/MODULE.bazel",
+                "file": "cgrindel_bazel_starlib@0.16.0/MODULE.bazel",
                 "line": 94,
                 "column": 15
               }
@@ -377,7 +377,7 @@
       "repoSpec": {
         "bzlFile": "@bazel_tools//tools/build_defs/repo:http.bzl",
         "ruleClassName": "http_archive",
-        "attributes": {"name":"--cgrindel_bazel_starlib~0.15.0","urls":["--https://github.com/cgrindel/bazel-starlib/releases/download/v0.15.0/bazel-starlib.v0.15.0.tar.gz"],"integrity":"--sha256-UhAqICJiShhYfsMuzxLPF0tfvwbZf5eHWXzT8aykzQ0=","strip_prefix":"--","remote_patches":{"--https://bcr.bazel.build/modules/cgrindel_bazel_starlib/0.15.0/patches/module_dot_bazel_version.patch":"--sha256-PvMclKKzj/yANLP4sF0Efg76V3SsiGiDgp0dncE4TQQ="},"remote_patch_strip":0}
+        "attributes": {"name":"--cgrindel_bazel_starlib~0.16.0","urls":["--https://github.com/cgrindel/bazel-starlib/releases/download/v0.16.0/bazel-starlib.v0.16.0.tar.gz"],"integrity":"--sha256-7gAz0Cm16t3CGDaylEzzfJXrXyFOs5g0E2oxbbwlKnM=","strip_prefix":"--","remote_patches":{"--https://bcr.bazel.build/modules/cgrindel_bazel_starlib/0.16.0/patches/module_dot_bazel_version.patch":"--sha256-NEZil+lr453UzJakTyW0VldJlnCmP+I05qRoVNTdGKw="},"remote_patch_strip":0}
       }
     },
     "rules_bazel_integration_test@0.12.0": {
@@ -396,7 +396,7 @@
         "bazel_skylib": "bazel_skylib@1.4.1",
         "rules_python": "rules_python@0.19.0",
         "platforms": "platforms@0.0.6",
-        "cgrindel_bazel_starlib": "cgrindel_bazel_starlib@0.15.0"
+        "cgrindel_bazel_starlib": "cgrindel_bazel_starlib@0.16.0"
       },
       "repoSpec": {
         "bzlFile": "@bazel_tools//tools/build_defs/repo:http.bzl",
