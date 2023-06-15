@@ -12,6 +12,11 @@ bazel_dep(
     dev_dependency = True,
 )
 
+single_version_override(
+    module_name = "cgrindel_bazel_starlib",
+    registry = "https://raw.githubusercontent.com/cgrindel-testing/bazel-central-registry/main",
+)
+
 # git_override(
 #     module_name = "cgrindel_bazel_starlib",
 #     commit = "fb47f0e9f7c376a7700fc9fe3319231ae57880df",
