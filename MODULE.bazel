@@ -23,10 +23,10 @@ single_version_override(
 #     remote = "https://github.com/cgrindel/bazel-starlib.git",
 # )
 
-local_path_override(
-    module_name = "cgrindel_bazel_starlib",
-    path = "/path/repo",
-)
+# local_path_override(
+#     module_name = "cgrindel_bazel_starlib",
+#     path = "/path/repo",
+# )
 
 bazel_binaries = use_extension(
     "//:extensions.bzl",
