@@ -13,7 +13,7 @@ bazel_dep(
 
 git_override(
     module_name = "cgrindel_bazel_starlib",
-    commit = "fb47f0e9f7c376a7700fc9fe3319231ae57880df",
+    commit = "b662d625c96ab3ab3a864cf8c760d85af27c2190",
     remote = "https://github.com/cgrindel/bazel-starlib.git",
 )
 
