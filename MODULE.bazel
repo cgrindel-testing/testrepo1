@@ -12,11 +12,18 @@ bazel_dep(
     dev_dependency = True,
 )
 
-single_version_override(
-    module_name = "cgrindel_bazel_starlib",
-    registry = "https://raw.githubusercontent.com/cgrindel-testing/bazel-central-registry/main",
-    version = "0.14.9",
-)
+# archive_override(
+#     module_name = "rules_foo",
+#     urls = [
+#         "https://example.com/archive.tar.gz",
+#     ],
+# )
+
+# single_version_override(
+#     module_name = "cgrindel_bazel_starlib",
+#     registry = "https://raw.githubusercontent.com/cgrindel-testing/bazel-central-registry/main",
+#     version = "0.14.9",
+# )
 
 # git_override(
 #     module_name = "cgrindel_bazel_starlib",
