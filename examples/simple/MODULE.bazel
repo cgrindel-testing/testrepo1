@@ -1,0 +1,27 @@
+module(
+    name = "simple_example",
+    version = "0.0.0",
+)
+
+local_path_override(
+    module_name = "my_test_repo",
+    path = "../..",
+)
+
+# bazel_dep(name = "cgrindel_bazel_starlib", version = "0.15.0")
+bazel_dep(name = "cgrindel_bazel_starlib", version = "0.14.9")
+
+bazel_dep(
+    name = "rules_bazel_integration_test",
+    version = "0.12.0",
+    dev_dependency = True,
+)
+
+bazel_binaries = use_extension(
+    "//:extensions.bzl",
+    "bazel_binaries",
+    dev_dependency = True,
+)
+bazel_binaries.download(version_file = "//:.bazelversion")
+bazel_binaries.download(version = "7.0.0-pre.20230215.2")
+use_repo(bazel_binaries, "bazel_binaries")
