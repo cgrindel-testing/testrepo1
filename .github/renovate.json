@@ -3,6 +3,7 @@
   "extends": [
     ":dependencyDashboard",
     ":semanticPrefixFixDepsChoreOthers",
+    "group:monorepos",
     ":semanticCommits",
     ":rebaseStalePrs"
   ],
