@@ -3,6 +3,7 @@
   "extends": [
     ":dependencyDashboard",
     ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
     ":semanticCommits",
     ":rebaseStalePrs"
   ],
