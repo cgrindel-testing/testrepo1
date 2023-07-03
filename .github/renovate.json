@@ -6,6 +6,7 @@
     "group:monorepos",
     "group:recommended",
     "replacements:all",
+    "workarounds:all",
     ":semanticCommits",
     ":rebaseStalePrs"
   ],
