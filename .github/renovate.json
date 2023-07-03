@@ -5,6 +5,7 @@
     ":semanticPrefixFixDepsChoreOthers",
     "group:monorepos",
     "group:recommended",
+    "replacements:all",
     ":semanticCommits",
     ":rebaseStalePrs"
   ],
